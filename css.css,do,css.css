@@ -1,0 +1,14 @@
+
+
+article p{
+    color: brown;
+}
+
+article > p{
+    text-decoration: dotted;
+    text-align: center;
+}
+
+h1 + p{
+    background-color: blue;
+}

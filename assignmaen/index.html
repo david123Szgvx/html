@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page assignments</title>
+</head>
+<body>
+
+    <form action="process_form.php" method="post" enctype="multipart/form-data">
+        <!-- First Name -->
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required>
+        <br>
+
+        <!-- Last Name -->
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required>
+        <br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">beans</option>
+        </select>
+        <br>
+
+        <!-- About Me -->
+        <label for="about_me">About Me:</label>
+        <textarea id="about_me" name="about_me" rows="4" cols="50">my name is david and i love gaming, and eating beans and bread</textarea>
+        <br>
+
+        <!-- Checkbox -->
+        <label for="subscribe">beans view :</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <br>
+
+        <!-- Radio buttons -->
+        <label>email</label>
+        <input type="radio" id="contact_email" name="contact_method" value="email">
+        <label for="contact_email">Email</label>
+        <input type="radio" id="contact_phone" name="contact_method" value="phone">
+        <label for="contact_phone">Phone</label>
+        <br>
+
+        <!-- File Upload -->
+        <label for="file_upload">Upload File:</label>
+        <br>
+       

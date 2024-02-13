@@ -1,0 +1,33 @@
+$primaryColor: #e35872;
+$textColor:rgb(226, 14, 14);
+$buttonHeight:300px;
+$buttonHoverColor:rgb(240, 8, 240);
+
+#btn1{
+    background: $primaryColor;
+}
+#btn2{
+    background: $primaryColor;
+}
+p{
+    color: $textColor;
+}
+
+
+.header{
+    // CSS for elements in the header class
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    // CSS for buttons inside the header class
+    button{
+        height: $buttonHeight;
+        background-color: $primaryColor;
+        text-align: center;
+
+        &:hover{
+            background:$buttonHoverColor;
+        }
+    }
+}

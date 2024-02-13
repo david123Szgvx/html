@@ -1,0 +1,25 @@
+#btn1 {
+  background: #e35872;
+}
+
+#btn2 {
+  background: #e35872;
+}
+
+p {
+  color: rgb(226, 14, 14);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header button {
+  height: 300px;
+  background-color: #e35872;
+  text-align: center;
+}
+.header button:hover {
+  background: rgb(240, 8, 240);
+}/*# sourceMappingURL=rain.css.map */
